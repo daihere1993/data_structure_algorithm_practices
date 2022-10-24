@@ -31,7 +31,7 @@ public:
 
     int j = 0;
     while (j < length) {
-      std::cout << data_[j] << " ";
+      std::cout << data_[length - j - 1] << " ";
       j++;
     }
 
